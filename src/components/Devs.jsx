@@ -12,7 +12,7 @@ const Devs = () => {
     min-[680px]:flex 
     min-[680px]:flex-row 
     min-[1300px]:mt-[8rem] 
-    min-[1300px]:ml-[30rem] 
+    min-[1300px]:ml-[28rem] 
     text-white
     min-[370px]:mt-[2rem] 
     min-[370px]:ml-[1rem] 
@@ -22,7 +22,14 @@ const Devs = () => {
     min-[667px]:flex-row 
     min-[667px]:ml-[2rem]
     min-[1020px]:ml-[3.5rem]
-    min-[665px]:ml-[6rem] 
+    min-[665px]:ml-[6rem]
+    min-[820px]:ml-[7rem]
+    min-[360px]:ml-[1rem]
+    min-[360px]:mr-[.7rem]
+    min-[360px]:mt-[1.5rem]
+    min-[280px]:ml-[1rem]
+    min-[280px]:mr-[.7rem]
+    min-[280px]:mt-[1.5rem] 
     "
     >
       <p>
@@ -39,6 +46,9 @@ const Devs = () => {
       min-[680px]:ml-[2rem]
       min-[667px]:mt-[0rem]
       min-[667px]:ml-[2rem]
+      min-[360px]:mt-[1.5rem]
+      min-[280px]:mt-[1.5rem] 
+
       "
       >
         Designed by Chudi

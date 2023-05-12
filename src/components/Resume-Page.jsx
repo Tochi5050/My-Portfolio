@@ -11,8 +11,14 @@ const Resume = () => {
       <NavBar />
       <div
         className="
+        min-[360px]:h-full
+        min-[820px]:text-[24px]
+        min-[820px]:h-full
+        min-[280px]:h-full
+        min-[540px]:h-[75rem]
         font-['Satoshi']
-        bg-black min-[1300px]:h-[60rem]
+        bg-black 
+        min-[1300px]:h-[85rem]
         max-[600px]:h-[52rem] 
         min-[700px]:h-[42rem] min-[700px]:bg-black
         min-[680px]:h-[75rem] min-[680px]:bg-black
@@ -22,12 +28,14 @@ const Resume = () => {
         min-[730px]:h-[75rem]
         min-[736px]:h-[75rem] min-[736px]:bg-black
         min-[400px]:h-[90rem] min-[400px]:bg-black
-        min-[370px]:h-[93rem] min-[370px]:bg-black  
+        min-[370px]:h-[93rem] min-[370px]:bg-black 
+        min-[412px]:h-full min-[360px]:bg-black 
+        min-[1024px]:h-full min-[1024px]:bg-black 
       "
       >
         <div
           className="
-        min-[1300px]:ml-[8.3rem]
+        min-[1300px]:ml-[5.8rem]
         max-[600px]:ml-[2rem] 
         min-[700px]:ml-[2rem] 
         min-[680px]:ml-[1.8rem] 
@@ -38,6 +46,7 @@ const Resume = () => {
         min-[736px]:ml-[2rem] 
         min-[400px]:ml-[.8rem] 
         min-[370px]:ml-[.8rem]
+        min-[280px]:ml-[.8rem]
         "
         >
           <h1 className="text-white mt-[10rem] text-[32px] font-medium">
@@ -50,7 +59,7 @@ const Resume = () => {
 
         <div
           className="
-        min-[1300px]:ml-[8.3rem] 
+        min-[1300px]:ml-[5.8rem] 
         max-[600px]:ml-[2rem] 
         min-[700px]:ml-[2rem] 
         min-[680px]:ml-[1.8rem] 
@@ -61,6 +70,7 @@ const Resume = () => {
         min-[736px]:ml-[2rem] 
         min-[400px]:ml-[.8rem] 
         min-[370px]:ml-[.8rem]
+        min-[280px]:ml-[.8rem]
         "
         >
           <h1 className="text-white font-bold mt-[24px] text-[18px] font-medium">
@@ -82,6 +92,7 @@ const Resume = () => {
         min-[736px]:ml-[2rem] 
         min-[400px]:ml-[.8rem] 
         min-[370px]:ml-[.8rem]
+        min-[280px]:ml-[.8rem]
         "
         >
           <p className="text-white mt-[24px]">June 2022 - October 2022</p>
@@ -104,7 +115,10 @@ const Resume = () => {
           min-[730px]:ml-[2rem]
           min-[736px]:ml-[2rem] 
           min-[400px]:ml-[2rem] 
-          min-[370px]:ml-[2rem] min-[370px]:mr-[2rem]
+          min-[370px]:ml-[2rem] 
+          min-[370px]:mr-[2rem]
+          min-[280px]:ml-[2rem] 
+          min-[280px]:mr-[2rem]
           
           "
           >
@@ -133,6 +147,7 @@ const Resume = () => {
         min-[736px]:ml-[2rem] 
         min-[400px]:ml-[.8rem] 
         min-[370px]:ml-[.8rem]
+        min-[280px]:ml-[.8rem]
         "
         >
           <p className="text-white mt-[24px]">July 2022 - December 2022</p>
@@ -155,7 +170,8 @@ const Resume = () => {
           min-[730px]:ml-[2rem]
           min-[736px]:ml-[2rem] 
           min-[400px]:ml-[2rem] 
-          min-[370px]:ml-[2rem] min-[370px]:mr-[2rem]
+          min-[370px]:ml-[2rem] 
+          min-[370px]:mr-[2rem]
           
           "
           >
@@ -187,6 +203,7 @@ const Resume = () => {
         min-[736px]:ml-[2rem] 
         min-[400px]:ml-[.8rem] 
         min-[370px]:ml-[.8rem]
+        min-[280px]:ml-[.8rem]
         "
         >
           <p className="text-white mt-[24px]">October 2022 - November 2022</p>
@@ -230,7 +247,7 @@ const Resume = () => {
 
         <div
           className="
-        min-[1300px]:ml-[8.3rem] min-[1300px]:mt-[5rem]
+        min-[1300px]:ml-[5.8rem] min-[1300px]:mt-[5rem]
         max-[600px]:ml-[2rem] 
         min-[700px]:ml-[2rem] 
         min-[680px]:ml-[1.8rem] 
@@ -241,16 +258,42 @@ const Resume = () => {
         min-[736px]:ml-[2rem] 
         min-[400px]:ml-[.8rem] 
         min-[370px]:ml-[.8rem]
+        min-[280px]:ml-[.8rem]
         "
         >
           <h1 className="text-white font-bold mt-[32px] text-[18px] font-medium">
             Tech Stack
           </h1>
           <p className="text-white text-[14px]">Tools, Technology & Language</p>
-          <div className="flex flex-row mt-3 min-[1300px]:ml-[30rem] min-[1300px]:mt-[-3.5rem]">
-            <img src={Express} className="h-10 mt-1.5" />
-            <img src={Node} className="ml-2 h-10 mt-1.5" />
-            <img src={Mongo} className="ml-2" />
+          <div
+            className="
+          flex flex-row mt-3 
+          min-[1300px]:ml-[30rem] 
+          min-[1300px]:mt-[-3.5rem]
+  
+          "
+          >
+            <img
+              src={Express}
+              className="
+            h-10 
+            mt-1.5
+            min-[280px]:h-5 
+            "
+            />
+            <img
+              src={Node}
+              className="
+            ml-2 h-10 mt-1.5
+            min-[280px]:h-5 
+            "
+            />
+            <img
+              src={Mongo}
+              className="ml-2
+            min-[280px]:h-8 
+            "
+            />
             <img src={GCP} />
           </div>
         </div>

@@ -7,7 +7,7 @@ const Socials = () => {
     <div>
       <div
         className="
-        min-[1300px]:ml-[8.3rem] 
+        min-[1300px]:ml-[5.8rem]
         max-[600px]:ml-[2rem] 
         min-[700px]:ml-[2rem] 
         min-[680px]:ml-[1.8rem] 
@@ -18,8 +18,15 @@ const Socials = () => {
         min-[736px]:ml-[2rem] 
         min-[400px]:ml-[.8rem] 
         min-[370px]:ml-[.8rem]
+        min-[375px]:ml-[1rem]
         min-[665px]:ml-[6rem] 
-        
+        min-[820px]:ml-[7rem]
+        min-[360px]:ml-[1rem]
+        min-[360px]:mr-[.7rem]
+        min-[360px]:mt-[1.5rem]
+        min-[280px]:ml-[1rem]
+        min-[280px]:mr-[.7rem]
+        min-[280px]:mt-[1.5rem]
         "
       >
         <h1
@@ -38,7 +45,7 @@ const Socials = () => {
         className="
       flex flex-row 
       min-[1300px]:mt-[2rem] 
-      min-[1300px]:ml-[8.3rem] 
+      min-[1300px]:ml-[5.8rem] 
       min-[1300px]:space-x-[6rem] 
       min-[370px]:ml-[1rem]
       min-[370px]:space-x-[3rem]
@@ -47,7 +54,16 @@ const Socials = () => {
       min-[680px]:ml-[2rem]
       min-[667px]:ml-[2rem] 
       min-[1020px]:ml-[3.5rem]   
-      min-[665px]:ml-[6rem] 
+      min-[665px]:ml-[6rem]
+      min-[820px]:ml-[7rem]
+      min-[360px]:ml-[1rem]
+      min-[360px]:mr-[.7rem]
+      min-[360px]:mt-[1.5rem]
+      min-[360px]:space-x-[4rem] 
+      min-[280px]:ml-[1rem]
+      min-[280px]:mr-[.7rem]
+      min-[280px]:mt-[1.5rem]
+      min-[280px]:space-x-[4rem] 
       "
       >
         <a href="https://twitter.com/ctochi46" target="_blank">
