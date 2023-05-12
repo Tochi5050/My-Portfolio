@@ -2,12 +2,12 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import "../src/index.css"
 import LandingPage from "./components/Landing-Page"
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createHashRouter, RouterProvider } from "react-router-dom"
 import AboutPage from "./components/About-Page"
 import Resume from "./components/Resume-Page"
 import Portfolio from "./components/Portfolio"
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <LandingPage />,
