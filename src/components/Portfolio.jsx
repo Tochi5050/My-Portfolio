@@ -186,7 +186,8 @@ const Portfolio = () => {
                   underline 
                   text-blue-700 
                   text-[14px] 
-                  min-[1300px]:pt-[2rem] 
+                  min-[1300px]:pt-[-1rem]
+                  min-[1300px]:mt-[-.0rem] 
                   min-[1300px]:pl-[2rem]
                   min-[370px]:pt-[2rem] 
                   min-[370px]:pl-[2rem]
@@ -207,6 +208,9 @@ const Portfolio = () => {
                   pt-[2rem] 
                   pl-[2rem]
                   min-[280px]:mt-[-2rem]
+                  min-[1300px]:pt-[-1rem]
+                  min-[1300px]:pl-[2rem]
+                  min-[1300px]:mt-[-.0rem] 
                   "
                   >
                     <a
