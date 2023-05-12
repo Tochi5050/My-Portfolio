@@ -51,7 +51,7 @@ const NavBar = () => {
             <Link
               to="/"
               className={
-                location.pathname === "/"
+                location.pathname === "/#"
                   ? "text-blue-500"
                   : "text-[#FAFAFA]-500"
               }
@@ -63,7 +63,7 @@ const NavBar = () => {
             <Link
               to="/about"
               className={
-                location.pathname === "/about"
+                location.pathname === "/#/about"
                   ? "text-blue-500"
                   : "text-[#FAFAFA]-500"
               }
@@ -75,7 +75,7 @@ const NavBar = () => {
             <Link
               to="/resume"
               className={
-                location.pathname === "/resume"
+                location.pathname === "/#/resume"
                   ? "text-blue-500"
                   : "text-[#FAFAFA]-500"
               }
@@ -87,7 +87,7 @@ const NavBar = () => {
             <Link
               to="/portfolio"
               className={
-                location.pathname === "/portfolio"
+                location.pathname === "/#/portfolio"
                   ? "text-blue-500"
                   : "text-[#FAFAFA]-500"
               }
