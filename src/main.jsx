@@ -9,7 +9,7 @@ import Portfolio from "./components/Portfolio"
 
 const router = createHashRouter([
   {
-    path: "/",
+    path: "/home",
     element: <LandingPage />,
   },
   {
