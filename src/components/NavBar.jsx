@@ -49,9 +49,9 @@ const NavBar = () => {
           "
           >
             <Link
-              to="/home"
+              to="/"
               className={
-                location.pathname === "/home"
+                location.pathname === "/"
                   ? "text-blue-500"
                   : "text-[#FAFAFA]-500"
               }
